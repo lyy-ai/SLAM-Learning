@@ -1,0 +1,8 @@
+SLAM问题的目标之一就是精确的估计相机运动的轨迹（姿态），如果我们将相机运动的轨迹绘制出来，就可以直观的观察它的运动是否符合预期
+。给定一个轨迹文件trajectory.txt，该文件的每一行由若干个数据组成，格式为 [time, tx, ty, tz, qx, qy, qz, qw],其中 time 为时间，tx,ty,tz 为平移部分，qx,qy,qz,qw 是四元数表示的旋转部分，请完成数据读取部分的代码，绘制部分代码已经给出。 代码框架和轨迹数据见：
+
+好的参考：关于Sophus使用
+http://www.manongjc.com/article/39785.html
+
+网上答案
+https://blog.csdn.net/xdzhangzhenhao/article/details/81462338

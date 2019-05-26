@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/classCross.dir/classCross.cpp.o  -o classCross 

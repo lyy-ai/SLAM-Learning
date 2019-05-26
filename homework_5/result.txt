@@ -1,0 +1,75 @@
+rotation_vector axis = 
+0
+0
+1
+ rotation_vector angle = 0.785398
+rotation matrix =
+ 0.707 -0.707      0
+ 0.707  0.707      0
+     0      0      1
+四元数输出方法1：quaternion = 
+    0
+0.383
+0.924
+    0
+四元数输出方法2：
+ x = 0
+ y = 0.383
+ z = 0.924
+ w = 0
+Euler: yaw pitch roll = 0.785398        0        0
+旋转向量转化为旋转矩阵方法1：rotation matrix =
+ 0.707107 -0.707107         0
+ 0.707107  0.707107         0
+        0         0         1
+旋转向量转化为旋转矩阵方法2：rotation matrix =
+ 0.707107 -0.707107         0
+ 0.707107  0.707107         0
+        0         0         1
+旋转向量转化为四元数：quaternion =
+       0
+       0
+0.382683
+ 0.92388
+旋转矩阵转化为旋转向量：rotation_vector axis = 
+0
+0
+1
+ rotation_vector angle = 0.785336
+旋转矩阵直接给旋转向量赋值初始化：rotation_vector axis = 
+0
+0
+1
+ rotation_vector angle = 0.785336
+旋转矩阵转化为欧拉角：yaw pitch roll =        0 0.785398        0
+旋转矩阵转化为四元数：quaternion =
+       0
+       0
+0.382638
+0.923851
+四元数转化为旋转向量：rotation_vector axis = 
+0
+0
+1
+ rotation_vector angle = 0.785336
+四元数转化为旋转矩阵方法1：rotation matrix =
+0.707177   -0.707        0
+   0.707 0.707177        0
+       0        0        1
+四元数转化为旋转矩阵方法2：rotation matrix =
+0.707177   -0.707        0
+   0.707 0.707177        0
+       0        0        1
+Transform matrix = 
+ 0.707151 -0.707063         0         1
+ 0.707063  0.707151         0         2
+        0         0         1         3
+        0         0         0         1
+欧氏变化矩阵提取旋转矩阵：rotation_matrix = 
+ 0.707151 -0.707063         0
+ 0.707063  0.707151         0
+        0         0         1
+欧氏变化矩阵提取平移向量：translation = 
+1
+2
+3

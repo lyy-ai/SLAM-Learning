@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lyy/from_0_to_1_for_slam/homework_4/classCross.cpp
+iostream
+-
+stdio.h
+-
+string
+-
+iostream
+-
+vector
+-
+algorithm
+-
+cassert
+-
+cmath
+-
+iterator
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/draw_trajectory.dir/draw_trajectory.cpp.o  -o draw_trajectory -rdynamic /home/lyy/Linux_dependence/Sophus/build/libSophus.so /usr/local/lib/libpangolin.so -lGLU -lGL -lGLEW -lX11 -lpython2.7 -lavcodec -lavformat -lavutil -lswscale -lOpenNI -lpng -lz -ljpeg -ltiff -Wl,-rpath,/home/lyy/Linux_dependence/Sophus/build:/usr/local/lib 
